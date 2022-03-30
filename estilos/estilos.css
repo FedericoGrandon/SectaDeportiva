@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62,5%;
+}
+
+body{
+    display: grid;
+    grid-template-areas: 
+    "nav"
+    "main"
+    "section"
+    "footer";
+    background-color: blueviolet;
+}
+
+.color_rojo{
+    color: red;
+    margin: 20px 25px 25px 20px;
+}
+
+/*todo lo relacionado al head*/
+
+.imagenUno{
+    margin-top: 20px;
+    margin-right: 300px;
+    margin-bottom: 100px;
+    margin-left: 300px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    height: auto;
+}
+
+h1{
+    text-align: center;
+    margin: 25px 25px;
+    background-color: aqua;
+
+}
+/*lo relacionado al menu*/
+
+nav{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9vw;
+    width: 100%;
+    grid-area: nav;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+.menu  li{
+    position: relative;
+    display: inline-block;
+}
+
+.menu li a{
+    display: flex;
+    padding: 15px 20px;
+    color:blue;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+}
+
+/*todo lo relacionado al main*/
+
+.h1{
+    width: 300px;
+    height: 300px;
+    margin: 45px;
+    padding: 45px;
+}
+
+.parrafo_azul{
+    color:whitesmoke;
+    font-style: italic;
+    font-weight: bold;
+    display: grid;
+
+}
+
+.imagenLogo{
+    margin-top: 80px;
+    margin-right: 500px;
+    margin-bottom: 80px;
+    margin-left: 500px;
+
+}
+
+.colormenu{
+    color:whitesmoke;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 30px;
+}
+/*todo lo relacionado al footer*/
+
+
+#footer{
+    color: whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    height: auto;
+    padding: 3vh 0vh;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+/*STAFF*/
+
+
+
+.bannerStaff{
+    margin-top: 20px;
+    margin-right: 300px;
+    margin-bottom: 100px;
+    margin-left: 300px;
+}
+
+.ulUno{
+    list-style-type: none;
+    display: inline;
+}
+
+.jeroUno{
+    font-weight: bold;
+    font-size: 25px;
+    margin: 15px;
+}
+
+.nicoUno{
+    font-weight: bold;
+    font-size: 25px;
+    margin: 15px;
+}
+
+.gonzaUno{
+    font-weight: bold;
+    font-size: 25px;
+    margin: 15px;
+}
+
+.juliUno{
+    font-weight: bold;
+    font-size: 25px;
+    margin: 15px;
+}
+
+.fedeUno{
+    font-weight: bold;
+    font-size: 25px;
+    margin: 15px;
+}
+
+.juanUno{
+    font-weight: bold;
+    font-size: 25px;
+    margin: 15px;
+}
+
+.lautiUno{
+    font-weight: bold;
+    font-size: 25px;
+    margin: 15px;
+}
+
+.aleUno{
+    font-weight: bold;
+    font-size: 25px;
+    margin: 15px;
+}
+
+#footerStaff{
+    color: white;
+    margin: 45px 45px;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+
+
+/*TOP DIEZ DE TRANSMISIONES*/
+
+.contenedorPadre{
+    display: grid;
+    gap: 10%;
+    border: 1px solid rgba(71, 68, 231, 0.315);
+    padding: 20px;
+    margin: 15px;
+    background-color: rgb(188, 0, 226);
+}
+
+.divVideos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 15px;
+}
+.bannerTopDiez{
+    margin-top: 20px;
+    margin-right: 300px;
+    margin-bottom: 100px;
+    margin-left: 300px;
+}
+
+#footerTopDiez{
+    color: white;
+    margin: 45px 45px;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+/*MEDIAKIT*/
+.bannerMedia{
+    margin-top: 20px;
+    margin-right: 300px;
+    margin-bottom: 100px;
+    margin-left: 300px;
+}
+
+
+.tituloMedia{
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+
+}
+
+.parUnoMedia{
+    font-weight: bold;
+    font-size: 30px;
+    margin:15px;
+    color:  whitesmoke;
+}
+
+.sectionMedia{
+    font-weight: bold;
+    font-size: 30px;
+    margin:15px;
+    color:  whitesmoke;
+}
+
+.sectionMediaKit{
+    font-weight:bolder;
+    font-size: 30px;
+    margin: 15px;
+    color:  whitesmoke;
+}
+
+#footerMedia{
+    color: white;
+    margin: 45px 45px;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+
+/*CONTACTANOS*/
+
+.bannerContacto{
+    margin-top: 20px;
+    margin-right: 300px;
+    margin-bottom: 100px;
+    margin-left: 300px;
+}
+
+.menuFormulario{
+
+    margin:100px auto;
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+.formulario{
+    border: solid 1px grey;
+    padding: 10px;
+
+}
+
+.boton{
+    border: 10px;
+    padding: 10px;
+    background-color: green;
+}
+
+#footerContacto{
+    color: white;
+    margin: 45px 45px;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+/*NUESTROS SPONSORS*/
+
+.bannerSponsors{
+    margin-top: 20px;
+    margin-right: 300px;
+    margin-bottom: 100px;
+    margin-left: 300px;
+}
+
+.sponsorsOrdenados{
+
+    width: 100px;
+    height: 100px;
+    align-items: center;
+}
+
+#footerSponsors{
+    color: white;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+@media screen and (max-width: 480px){
+    .contenedorPadre{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 0.5 fr 0.5fr;
+        grid-template-areas:
+        "head"
+        "body"
+        "section"
+        "footer";
+    }
+    .menu{
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .mainIndex{
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+}
