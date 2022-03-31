@@ -10,11 +10,10 @@ html{
 body{
     display: grid;
     grid-template-areas: 
-    "nav"
+    "nav "
     "main"
     "section"
     "footer";
-    background-color: blueviolet;
 }
 
 .color_rojo{
@@ -40,13 +39,11 @@ body{
 h1{
     text-align: center;
     margin: 25px 25px;
-    background-color: aqua;
 
 }
 /*lo relacionado al menu*/
 
 nav{
-    background-color: whitesmoke;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
